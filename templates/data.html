@@ -1,0 +1,931 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Data</title>
+  </head>
+  <body>
+    <h1>Data</h1>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+      {% for row in data %}
+      <tr>
+        <td>{{ row[0] }}</td>
+         <td>{{ row[1] }}</td>
+        <td>{{ row[2] }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Navbar section */
+
+.BrandName{
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: bold;
+    margin-left: 80px;
+}
+#nav-sec{
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight:  300;
+    text-decoration: none;
+    position: absolute;
+    left: 29%;
+    top: 1%;
+    word-spacing: 40px;
+
+}
+.nav{
+    text-decoration: none;
+    color: #000;
+   
+}
+#Nh4{
+    word-spacing: 10px;
+}
+.search-form{
+    position: absolute;
+    left: 76%;
+    top: 27px;
+}
+.tex{
+    color: #f00a0a;
+}
+.box{
+    height: 39px;
+    width: 102px;
+    background-color: #000;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Poppins';
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    position: absolute;
+    left: 88%;
+    top: 2px;
+}
+.box:hover{
+  background-color: #04AA6D;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* multi slider */
+
+.container{
+    background-color: #f5f5f5;
+    height: 550px;
+    width: 1250px;
+    margin-top: 50px;
+    margin-left: 5%;
+    border-radius: 50px;
+    background-color: #193718;
+}
+#try-img01{
+    height: 470px;
+    position: absolute;
+    left: 63%;
+    bottom: 16%;
+}
+.heading{
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight: 800;
+    text-decoration: none;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+}
+#Mh1{
+    text-decoration: none;
+    color: #FF8BFF;
+}
+.RIM_content{
+    color: #FF8BFF;
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    position: absolute;
+    top: 33.5%;
+    left: 8%;
+
+}
+.box02{
+    height: 39px;
+    width: 102px;
+    background-color: #000;
+    border-radius: 15px;
+    color: #FF8BFF;
+    font-size: 25px;
+    font-family: 'Poppins';
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    position: absolute;
+    top: 77%;
+    left: 8%;
+}
+#trynow{
+    color: #FFF;
+    text-decoration: none;
+}
+.box02:hover{
+    background: #04AA6D;
+}
+#readmore{
+    text-decoration: none;
+    color: #FF8BFF;
+    position: absolute;
+    left: 18%;
+    bottom: 13%;
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+/* ShopNow */
+
+/* simg01 */
+
+#HSN{
+    text-decoration: none;
+    font-family: "poppins";
+    font-size: 50px;
+    font-weight: 800;
+    font-style: normal;
+    color: #000;
+    margin-left: 100px;
+    position: absolute;
+    top: 95%;
+}
+#img01{
+    height: 450px;
+    width: 300px;
+    position: absolute;
+    top: 105%;
+    left: 5%;
+    border-radius: 25px;
+}
+#pname{
+    text-decoration: none;
+    font-family: "poppins";
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    position: absolute;
+    top: 152%;
+    left: 7%;
+}
+#ATC{
+    text-decoration: none;
+    color: #ffffff;
+}
+.AddToCard{
+    height: 39px;
+    width: 178px;
+    background-color: #000;
+    border-radius: 29px;
+    color: #FF8BFF;
+    font-size: 30px;
+    font-family: 'Poppins';
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    position: absolute;
+    top: 162%;
+    left: 8%;
+}
+.AddToCard:hover{
+    background-color: #04AA6D;
+}
+
+/* simg02 */
+
+#img02{
+    height: 273px;
+    width: 300px;
+    position: absolute;
+    top: 115%;
+    left: 35%;
+    border-radius: 25px
+}
+#pname02{
+    text-decoration: none;
+    font-family: "poppins";
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    position: absolute;
+    top: 152%;
+    left: 36%;
+}
+#ATC02{
+    text-decoration: none;
+    color: #ffffff;
+}
+.AddToCard02{
+    height: 39px;
+    width: 178px;
+    background-color: #000;
+    border-radius: 29px;
+    color: #FF8BFF;
+    font-size: 30px;
+    font-family: 'Poppins';
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    position: absolute;
+    top: 162%;
+    left: 37%;
+}
+.AddToCard02:hover{
+    background-color: #04AA6D;
+}
+
+/* simg03 */
+
+#img03{
+    height: 273px;
+    width: 300px;
+    position: absolute;
+    top: 115%;
+    left: 65%;
+    border-radius: 25px
+}
+#pname03{
+    text-decoration: none;
+    font-family: "poppins";
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    position: absolute;
+    top: 152%;
+    left: 66%;
+}
+#ATC03{
+    text-decoration: none;
+    color: #ffffff;
+}
+.AddToCard03{
+    height: 39px;
+    width: 178px;
+    background-color: #000;
+    border-radius: 29px;
+    color: #FF8BFF;
+    font-size: 30px;
+    font-family: 'Poppins';
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    position: absolute;
+    top: 162%;
+    left: 67%;
+}
+.AddToCard03:hover{
+    background-color: #04AA6D;
+}
+
+/* Latest Blog */
+.Heading-lastest_Blog{
+    font-family: "poppins";
+    font-size: 50px;
+    font-weight: 800;
+    font-style: normal;
+    position: absolute;
+    top: 180%;
+    left: 5%;
+    
+}
+#HLB{
+    text-decoration: none;
+    color: #000;
+    margin-left: 33px;
+}
+#ib01{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    top: 197%;
+    left: 5%;
+    border-radius: 25px;
+}
+#tag01{
+    text-decoration: none;
+    color: #fff;
+}
+.tag{
+    height: 39px;
+    width: 105px;
+    background-color: #FF8A00;
+    border-radius: 11px;
+    font-size: 30px;
+    font-family: 'Poppins';
+    padding-left: 16px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 198%;
+    left: 30%;
+}
+.date{
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    position: absolute;
+    top: 198%;
+    left: 40%;
+}
+.Bh1{
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    position: absolute;
+    top: 205%;
+    left: 30%;
+    line-height: 1.2;
+}
+#bh1{
+    text-decoration: none;
+    color: #000000;
+}
+.bdes01{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    position: absolute;
+    top: 215%;
+    left: 30%;
+}
+.Breadmore01{
+    height: 39px;
+    width: 286px;
+    background-color: #FF6060;
+    border-radius: 50px;
+    font-size: 39px;
+    font-family: 'Poppins';
+    padding-left: 54px;
+    padding-bottom: 17px;
+    position: absolute;
+    top: 233%;
+    left: 5%;
+}
+#BR01{
+    text-decoration: none;
+    color: #ffffff;
+}
+.Breadmore01:hover,.tag:hover{
+    background-color: #04AA6D;
+}
+#ib02{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    top: 250%;
+    left: 5%;
+    border-radius: 25px;
+}
+#tag02{
+    text-decoration: none;
+    color: #fff;
+}
+.tag2{
+    height: 39px;
+    width: 105px;
+    background-color: #FF8A00;
+    border-radius: 11px;
+    font-size: 30px;
+    font-family: 'Poppins';
+    padding-left: 16px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 250%;
+    left: 30%;
+}
+.date-2{
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    position: absolute;
+    top: 250%;
+    left: 40%;
+}
+.Bh2{
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    position: absolute;
+    top: 257%;
+    left: 30%;
+    line-height: 1.2;
+}
+#bh2{
+    text-decoration: none;
+    color: #000000;
+}
+.bdes02{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    position: absolute;
+    top: 267%;
+    left: 30%;
+}
+.Breadmore02{
+    height: 39px;
+    width: 286px;
+    background-color: #FF6060;
+    border-radius: 50px;
+    font-size: 39px;
+    font-family: 'Poppins';
+    padding-left: 54px;
+    padding-bottom: 17px;
+    position: absolute;
+    top: 286%;
+    left: 5%;
+}
+#BR02{
+    text-decoration: none;
+    color: #ffffff;
+}
+.Breadmore02:hover,.tag2:hover{
+    background-color: #04AA6D;
+}
+#ib03{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    top: 303%;
+    left: 5%;
+    border-radius: 25px;
+}
+#tag03{
+    text-decoration: none;
+    color: #fff;
+}
+.tag3{
+    height: 39px;
+    width: 105px;
+    background-color: #FF8A00;
+    border-radius: 11px;
+    font-size: 30px;
+    font-family: 'Poppins';
+    padding-left: 16px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 303%;
+    left: 30%;
+}
+.date-3{
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    position: absolute;
+    top: 303%;
+    left: 40%;
+}
+.Bh3{
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    position: absolute;
+    top: 310%;
+    left: 30%;
+    line-height: 1.2;
+}
+#bh3{
+    text-decoration: none;
+    color: #000000;
+}
+.bdes03{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    position: absolute;
+    top: 320%;
+    left: 30%;
+}
+.Breadmore03{
+    height: 39px;
+    width: 286px;
+    background-color: #FF6060;
+    border-radius: 50px;
+    font-size: 39px;
+    font-family: 'Poppins';
+    padding-left: 54px;
+    padding-bottom: 17px;
+    position: absolute;
+    top: 339%;
+    left: 5%;
+}
+#BR03{
+    text-decoration: none;
+    color: #ffffff;
+}
+.Breadmore03:hover,.tag3:hover{
+    background-color: #04AA6D;
+}
+
+/* about section */
+.Atxt{
+    font-family: "poppins";
+}
+.about .content1 {
+    background-color: #f6f9ff;
+    padding: 40px;
+    position: absolute;
+    top: 360%;
+    left: 5%;
+    width: 40%;
+  }
+  .about h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #4154f1;
+    text-transform: uppercase;
+  }
+  .about h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #012970;
+  }
+  .about p {
+    margin: 15px 0 30px 0;
+    line-height: 24px;
+  }
+  .about .btn-read-more {
+    line-height: 0;
+    padding: 15px 40px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #4154f1;
+    box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+  }
+  .about .btn-read-more span {
+    /* font-family: "Nunito", sans-serif; */
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .about .btn-read-more i {
+    margin-left: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  .about .btn-read-more:hover i {
+    transform: translateX(5px);
+  }
+
+  #Aimg01{
+    height: 352px;
+    position: absolute;
+    top: 360%;
+    left: 48%;
+    border-radius: 43px;
+  }
+
+  #A-RM01{
+    text-decoration: none;
+  }
+
+.about .btn-read-more:hover{
+    background-color: #04AA6D;
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    {% for row in data %}
+    <section>
+        <div class="container-main">
+            <div class="container">
+                <div class="heading-product-name">
+                    <h1>{{ row[0] }}</h1>
+                </div>
+                <div class="main-obj-img">
+                    <img src="/images/object main page/coco list products/suitcase.jpg" alt="" id="obj-img">
+                </div>
+                <div class="frist-para-content">
+                    <p id="frt-cont">
+                        {{ row[1] }}
+                       
+                        
+
+                    </p>
+                </div>
+                <div class="second-para-content">
+                    <p id="sec-cont">{{ row[2] }}</p>
+                </div>
+                <div class="LearnMore-btn">
+                    <a href="" id="btn-LearnMore">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="store-heading-main">
+            <div class="store-heading">
+                <div class="heading">
+                    <a href="" id="Fheading">
+                        <h2 id="Store_Heading">{{ row[0] }}</h2>
+                    </a>
+                    <!-- <div class="dropdown">
+                        <button class="dropbtn">city</button>
+                        <div class="dropdown-content">
+                      <a href="">  <p>Hyderabad</p> </a>
+                        </div>
+                      </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="stores-main">
+            <div class="store01">
+                <div class="img-01">
+                    <img src="/images/object main page/stores/suitcase store/carlos-derecichei-N649vCuwR4A-unsplash.jpg" alt="">
+                </div>
+                <div class="store01-heading">
+                    <a href="">
+                        <h2>{{ row[3] }}</h2>
+                    </a>
+                </div>
+                <div class="rating-main">
+                    <div class="four">{{ row[4] }}</div>
+                    <div class="str">
+                        <div class="starL"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    </div>
+                    <div class="store-desc">
+                        <p id="desc-store01">{{ row[5] }}</p>
+                            <div class="address-main">
+                                <p id="address">Opposite Sai Baba Temple, Alkapuri, Hyderabad, Telangana 500035 ·</p>
+                            </div>
+                    </div>
+                    <!-- <div class="phone_read-more">
+                        <div class="phone-main">
+                            <p id="phone01">Phone: 1234567890</p>
+                        </div>
+                        <div class="readMore-main">
+                            <a href="" id="RM01">
+                                Read More
+                            </a>
+                        </div>
+                    </div> -->
+                    <div class="Phone_read-more-main">
+                        <ul>
+                            <li class="PRM" id="phone01">Phone: 1234567890</li>
+                            <li class="PRM" id="Readmore01">
+                                <a href="" id="RM01">
+                                    Read More
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section>
+        <div class="stores-main2">
+            <div class="store02">
+                <div class="img-02">
+                    <img src="/images/object main page/stores/suitcase store/caroline-selfors-r2jpr8MDw0I-unsplash.jpg" alt="">
+                </div>
+                <div class="store02-heading">
+                    <a href="">
+                        <h2>Baggage World</h2>
+                    </a>
+                </div>
+                <div class="rating-main2">
+                    <div class="four-2">4.5</div>
+                    <div class="str-2">
+                        <div class="starL-2"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-2"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-2"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-2"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-2"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    </div>
+                    <div class="store-desc2">
+                        <p id="desc-store01-2">Welcome to our Baggage World store! We offer a wide variety <br>
+                             of high-quality suitcases that are perfect for all your travel needs. <br>
+                             Whether you're planning a weekend getaway or a long international trip, <br> 
+                             we have the perfect suitcase to suit your needs.</p>
+                            <div class="address-main-2">
+                                <p id="address-2">11 12 156/1 2ND Floor, Road NO 06, SRI Ramakrishnapuram, Hyderabad, Telangana</p>
+                            </div>
+                    </div>
+                    <div class="Phone_read-more-main-2">
+                        <ul>
+                            <li class="PRM-2" id="phone02">Phone: 1234567890</li>
+                            <li class="PRM-2" id="Readmore02">
+                                <a href="" id="RM02">
+                                    Read More
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="stores-main3">
+            <div class="store03">
+                <div class="img-03">
+                    <img src="/images/object main page/stores/suitcase store/mohammed-gadi-2qCX0SsSwzs-unsplash.jpg" alt="">
+                </div>
+                <div class="store03-heading">
+                    <a href="">
+                        <h2>Royal Luggage World</h2>
+                    </a>
+                </div>
+                <div class="rating-main3">
+                    <div class="four-3">4.5</div>
+                    <div class="str-3">
+                        <div class="starL-3"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-3"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-3"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-3"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-3"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    </div>
+                    <div class="store-desc3">
+                        <p id="desc-store01-3">Welcome to our Royal Luggage World store! We offer a wide variety <br>
+                             of high-quality suitcases that are perfect for all your travel needs. <br>
+                             Whether you're planning a weekend getaway or a long international trip, <br> 
+                             we have the perfect suitcase to suit your needs.</p>
+                            <div class="address-main-3">
+                                <p id="address-3">5-9-321, Opposite S B H, Bsd Leather World, Abids, Hyderabad, Telangana 500001 </p>
+                            </div>
+                    </div>
+                    <div class="Phone_read-more-main-3">
+                        <ul>
+                            <li class="PRM-3" id="phone03">Phone: 1234567890</li>
+                            <li class="PRM-3" id="Readmore03">
+                                <a href="" id="RM03">
+                                    Read More
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="stores-main4">
+            <div class="store04">
+                <div class="img-04">
+                    <img src="/images/object main page/stores/suitcase store/lazar-gugleta-HtaxUxO2vbY-unsplash.jpg" alt="">
+                </div>
+                <div class="store04-heading">
+                    <a href="">
+                        <h2>Bhavani Bags</h2>
+                    </a>
+                </div>
+                <div class="rating-main4">
+                    <div class="four-4">4.5</div>
+                    <div class="str-4">
+                        <div class="starL-4"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-4"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-4"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-4"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-4"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    </div>
+                    <div class="store-desc4">
+                        <p id="desc-store01-4">Welcome to our Bhavani Bags store! We offer a wide variety <br>
+                             of high-quality suitcases that are perfect for all your travel needs. <br>
+                             Whether you're planning a weekend getaway or a long international trip, <br> 
+                             we have the perfect suitcase to suit your needs.</p>
+                            <div class="address-main-4">
+                                <p id="address-4">Near Sri Ganesh Steel And Gift Articles And Home Needs, Hyderabad, Telangana</p>
+                            </div>
+                    </div>
+                    <div class="Phone_read-more-main-4">
+                        <ul>
+                            <li class="PRM-4" id="phone04">Phone: 1234567890</li>
+                            <li class="PRM-4" id="Readmore04">
+                                <a href="" id="RM04">
+                                    Read More
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="stores-main5">
+            <div class="store05">
+                <div class="img-05">
+                    <img src="/images/object main page/stores/suitcase store/nikita-tikhomirov-TdNMf8iQioQ-unsplash.jpg" alt="">
+                </div>
+                <div class="store05-heading">
+                    <a href="">
+                        <h2>Super Luggage</h2>
+                    </a>
+                </div>
+                <div class="rating-main5">
+                    <div class="four-5">4.5</div>
+                    <div class="str-5">
+                        <div class="starL-5"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-5"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-5"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-5"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-5"><img src="/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    </div>
+                    <div class="store-desc5">
+                        <p id="desc-store01-5">Welcome to our Super Luggage store! We offer a wide variety <br>
+                             of high-quality suitcases that are perfect for all your travel needs. <br>
+                             Whether you're planning a weekend getaway or a long international trip, <br> 
+                             we have the perfect suitcase to suit your needs.</p>
+                            <div class="address-main-5">
+                                <p id="address-5">Opposite Reliance Fresh, Steet No 8, Habsiguda, Hyderabad, Telangana</p>
+                            </div>
+                    </div>
+                    <div class="Phone_read-more-main-5">
+                        <ul>
+                            <li class="PRM-5" id="phone05">Phone: 1234567890</li>
+                            <li class="PRM-5" id="Readmore05">
+                                <a href="" id="RM05">
+                                    Read More
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  
+
+
+
+
+    {% endfor %}
+</body>
+</html>

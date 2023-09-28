@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/Result_style.css">
+    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    {% for row in data %}
+    <section>
+        <div class="container-main">
+            <div class="container">
+                <div class="heading-product-name">
+                    
+                    <h1>{{ row[1] }}</h1>
+                    
+                </div>
+                <div class="main-obj-img">
+                    <img src="/static/img/store imgs/{{ row[29] }}.jpg" alt="" id="obj-img">
+                </div>
+                <div class="frist-para-content">
+                    <p id="frt-cont">
+                        {{ row[2] }}
+                    </p>
+                </div>
+                <div class="second-para-content">
+                    <p id="sec-cont">{{ row[3] }}</p>
+                </div>
+                <div class="LearnMore-btn">
+                    <a href="https://en.wikipedia.org/wiki/{{ row[1] }}" id="btn-LearnMore" target="_blank" >Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="store-heading-main">
+            <div class="store-heading">
+                <div class="heading">
+                    <a href="" id="Fheading">
+                        <h2 id="Store_Heading">{{ row[1] }}</h2>
+                    </a>
+                    <!-- <div class="dropdown">
+                        <button class="dropbtn">city</button>
+                        <div class="dropdown-content">
+                      <a href="">  <p>Hyderabad</p> </a>
+                        </div>
+                      </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="stores-main">
+            <div class="store01">
+                <div class="img-01">
+                    <img src="/static/img/store imgs/{{ row[29] }}_store_01.jpg" alt="">
+                </div>
+                <div class="store01-heading">
+                    <a href="">
+                        <h2>{{ row[5] }}</h2>
+                    </a>
+                </div>
+                <div class="rating-main">
+                    <div class="four">4.5</div>
+                    <div class="str">
+                        <div class="starL"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    </div>
+                    <div class="store-desc">
+                        <p id="desc-store01">{{ row[7] }}</p>
+                            <div class="address-main">
+                                <p id="address">{{ row[8] }}</p>
+                            </div>
+                    </div>
+                    <!-- <div class="phone_read-more">
+                        <div class="phone-main">
+                            <p id="phone01">Phone: 1234567890</p>
+                        </div>
+                        <div class="readMore-main">
+                            <a href="" id="RM01">
+                                Read More
+                            </a>
+                        </div>
+                    </div> -->
+                    <div class="Phone_read-more-main">
+                        <ul>
+                            <li class="PRM" id="phone01">Phone: 1234567890</li>
+                            <li class="PRM" id="Readmore01">
+                                <a href="" id="RM01">
+                                    Read More
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section>
+        <div class="stores-main2">
+            <div class="store02">
+                <div class="img-02">
+                    <img src="/static/img/store imgs/{{ row[29] }}_store_02.jpg" alt="">
+                </div>
+                <div class="store02-heading">
+                    <a href="">
+                        <h2>{{ row[10] }}</h2>
+                    </a>
+                </div>
+                <div class="rating-main2">
+                    <div class="four-2">4.5</div>
+                    <div class="str-2">
+                        <div class="starL-2"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-2"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-2"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-2"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-2"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    </div>
+                    <div class="store-desc2">
+                        <p id="desc-store01-2">{{ row[12] }}</p>
+                            <div class="address-main-2">
+                                <p id="address-2">{{ row[13] }}</p>
+                            </div>
+                    </div>
+                    <div class="Phone_read-more-main-2">
+                        <ul>
+                            <li class="PRM-2" id="phone02">Phone: 1234567890</li>
+                            <li class="PRM-2" id="Readmore02">
+                                <a href="" id="RM02">
+                                    Read More
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="stores-main3">
+            <div class="store03">
+                <div class="img-03">
+                    <img src="/static/img/store imgs/{{ row[29] }}_store_03.jpg" alt="">
+                </div>
+                <div class="store03-heading">
+                    <a href="">
+                        <h2>{{ row[15] }}</h2>
+                    </a>
+                </div>
+                <div class="rating-main3">
+                    <div class="four-3">4.5</div>
+                    <div class="str-3">
+                        <div class="starL-3"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-3"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-3"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-3"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-3"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    </div>
+                    <div class="store-desc3">
+                        <p id="desc-store01-3">{{ row[17] }}</p>
+                            <div class="address-main-3">
+                                <p id="address-3">{{ row[18] }} </p>
+                            </div>
+                    </div>
+                    <div class="Phone_read-more-main-3">
+                        <ul>
+                            <li class="PRM-3" id="phone03">Phone: 1234567890</li>
+                            <li class="PRM-3" id="Readmore03">
+                                <a href="" id="RM03">
+                                    Read More
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="stores-main4">
+            <div class="store04">
+                <div class="img-04">
+                    <img src="/static/img/store imgs/{{ row[29] }}_store_04.jpg" alt="">
+                </div>
+                <div class="store04-heading">
+                    <a href="">
+                        <h2>{{ row[20] }}</h2>
+                    </a>
+                </div>
+                <div class="rating-main4">
+                    <div class="four-4">4.5</div>
+                    <div class="str-4">
+                        <div class="starL-4"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-4"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-4"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-4"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-4"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    </div>
+                    <div class="store-desc4">
+                        <p id="desc-store01-4">{{ row[22] }}</p>
+                            <div class="address-main-4">
+                                <p id="address-4">{{ row[23] }}</p>
+                            </div>
+                    </div>
+                    <div class="Phone_read-more-main-4">
+                        <ul>
+                            <li class="PRM-4" id="phone04">Phone: 1234567890</li>
+                            <li class="PRM-4" id="Readmore04">
+                                <a href="" id="RM04">
+                                    Read More
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="stores-main5">
+            <div class="store05">
+                <div class="img-05">
+                    <img src="/static/img/store imgs/{{ row[29] }}_store_05.jpg" alt="">
+                </div>
+                <div class="store05-heading">
+                    <a href="">
+                        <h2>{{ row[25] }}</h2>
+                    </a>
+                </div>
+                <div class="rating-main5">
+                    <div class="four-5">4.5</div>
+                    <div class="str-5">
+                        <div class="starL-5"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-5"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-5"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-5"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    <div class="starL-5"><img src="/static/images/object main page/stores/suitcase store/star/Vector.png" alt=""></div>
+                    </div>
+                    <div class="store-desc5">
+                        <p id="desc-store01-5">{{ row[27] }}</p>
+                            <div class="address-main-5">
+                                <p id="address-5">{{ row[28] }}</p>
+                            </div>
+                    </div>
+                    <div class="Phone_read-more-main-5">
+                        <ul>
+                            <li class="PRM-5" id="phone05">Phone: 1234567890</li>
+                            <li class="PRM-5" id="Readmore05">
+                                <a href="" id="RM05">
+                                    Read More
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endfor %} 
+</body>
+</html>

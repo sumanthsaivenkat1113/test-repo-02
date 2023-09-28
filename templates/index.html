@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar section -->
+    <section class="Navbar-section">
+        <div class="SHOPNOW">
+        <div class="BrandName">
+            SHOPNOW
+        </div>
+        </div>
+        <nav id="nav-sec">
+            <a id="Nh1" class="nav" href="index.html">Home</a>
+            <a class="nav" href="shop_Page.html">Browse</a>
+            <a class="nav" href="Blog_page.html">Blog</a>
+            <a id="Nh4" class="nav" href="About_us_page.html">About us</a>
+        </nav>
+        <div class="search-form">
+    </section>
+
+	<section>
+        <div class="top-RIS">
+            <h1 id="heading">Reverse Image Search</h1>
+        </div>
+        <form action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
+        <div class="form-baclgroun">
+            <div class="File-upload_form">
+                <div class="File-upload_form-boder">
+                    <div class="imgvct">
+                        <img src="/static/images/upload file form/Vector-upload-pic.png" alt="" id="vct">
+                    </div>
+                    <div class="upd-fil-tex">
+                        <h2 id="UFL">UPLOAD THE FILE HERE </h2>
+                    </div>
+                    <div class="browse-dev">
+                  <label class="label"> <span class="browse-files"> 
+                    <input type="file" class="default-file-input" name="file"/> 
+                    <span class="browse-files-text">browse file</span>
+                     <span>from device</span> </span> </label>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button type="submit" class="button">Upload</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    </section>
+
+<!-- shop now -->
+ <section class="shopnow">
+   <div class="heading-shopnow">
+    <a href="" id="HSN">browse</a>
+   </div>
+ <div class="shopNow-imgs">
+    <div class="simg01">
+        <div class="img01">
+            <img src="/static/images/home page/02 show_now__Add_to_card/mockup-graphics-n8YZ00cIcB8-unsplash.jpg" alt="" id="img01">
+            <div class="Pname">
+                <a href="" class="" id="pname">Coffe Cup</a>
+            </div>
+        </div>
+        <div class="AddToCard">
+            <a href="" id="ATC">Learn More</a>
+        </div>
+    </div>
+    <div class="simg02">
+            <div class="img02">
+                <img src="/static/images/home page/02 show_now__Add_to_card/mostafa-mahmoudi-J4DnKxz_3sA-unsplash.jpg" alt="" id="img02">
+                <div class="Pname02">
+                    <a href="" class="" id="pname02">Hand Bag</a>
+                </div>
+            </div>
+            <div class="AddToCard02">
+                <a href="" id="ATC02">Learn More</a>
+    </div>
+    </div>
+    <div class="simg03">
+        <div class="img03">
+            <img src="/static/images/home page/02 show_now__Add_to_card/ben-hershey-VEW78A1YZ6I-unsplash.jpg" alt="" id="img03">
+            <div class="Pname03">
+                <a href="" class="" id="pname03">Tennis ball</a>
+            </div>
+        </div>
+        <div class="AddToCard03">
+            <a href="" id="ATC03">Learn More</a>
+</div>
+</div> 
+ </div>
+ </section>
+
+ <!-- Latest Blog -->
+ <section class="Latest-Blog">
+    <div class="Heading-lastest_Blog">
+        <a href="" id="HLB">Latest blog</a>
+    </div>
+    <div class="blog-1">
+        <div class="img-blg-01">
+            <img src="/static/images/home page/03 blog/annie-spratt-QckxruozjRg-unsplash.jpg" alt="" id="ib01">
+        </div>
+        <div class="tag-main">
+            <a href="" id="tag01">
+                <div class="tag">
+                    Lorem
+                </div>
+            </a>
+        </div>
+        <div class="date">March 27, 2018</div>
+        <div class="Bh1">
+            <a href="" id="bh1">consectetur adipisicing elit, sed do <br>
+                eiusmod tempor incididunt</a>
+        </div>
+        <div class="bdes01">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br>
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum <br>
+            dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do
+        </div>
+        <div class="Breadmore01-main">
+            <a href="" id="BR01">
+                <div class="Breadmore01">
+                    Read more
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="blog-2">
+        <div class="img-blg-02">
+            <img src="/static/images/home page/03 blog/irene-kredenets-dwKiHoqqxk8-unsplash.jpg" alt="" id="ib02">
+        </div>
+        <div class="tag2-main">
+            <a href="" id="tag02">
+                <div class="tag2">
+                    Lorem
+                </div>
+            </a>
+        </div>
+        <div class="date-2">March 27, 2018</div>
+        <div class="Bh2">
+            <a href="" id="bh2">consectetur adipisicing elit, sed do <br>
+                eiusmod tempor incididunt</a>
+        </div>
+        <div class="bdes02">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br>
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum <br>
+            dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do
+        </div>
+        <div class="Breadmore02-main">
+            <a href="" id="BR02">
+                <div class="Breadmore02">
+                    Read more
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="blog-3">
+        <div class="img-blg-03">
+            <img src="/static/images/home page/03 blog/bruna-branco-7r1HxvVC7AY-unsplash.jpg" alt="" id="ib03">
+        </div>
+        <div class="tag3-main">
+            <a href="" id="tag03">
+                <div class="tag3">
+                    Lorem
+                </div>
+            </a>
+        </div>
+        <div class="date-3">March 27, 2018</div>
+        <div class="Bh3">
+            <a href="" id="bh3">consectetur adipisicing elit, sed do <br>
+                eiusmod tempor incididunt</a>
+        </div>
+        <div class="bdes03">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br>
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum <br>
+            dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do
+        </div>
+        <div class="Breadmore03-main">
+            <a href="" id="BR03">
+                <div class="Breadmore03">
+                    Read more
+                </div>
+            </a>
+        </div>
+    </div>
+ </section>
+
+<!-- about section -->
+
+<section id="about" class="about">
+
+    <div class="container1" data-aos="fade-up">
+      <div class="row gx-0">
+
+        <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="content1">
+            <h3 class="Atxt">Who We Are</h3>
+            <h2 class="Atxt">Expedita voluptas omnis cupiditate totam  eveniet <br> nobis sint iste. Dolores est repellat  corrupti <br> reprehenderit.</h2>
+            <p class="Atxt">
+              Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. <br> Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam  nam <br> ipsum tenetur suscipit voluptatum nam et est corrupti.
+            </p>
+            <div class="text-center text-lg-start">
+              <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center" id="A-RM01">
+                <span class="Atxt">Read More</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+          <img src="/static/images/home page/04 About us/campaign-creators-e6n7uoEnYbA-unsplash.jpg" class="img-fluid" id="Aimg01" alt="img">
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+</body>
+</html>

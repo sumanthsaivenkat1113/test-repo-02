@@ -1,0 +1,508 @@
+
+
+ .container{
+    height: 921px;
+    width: 1300px;
+    background-color: #F4F4F4;
+    border-radius: 70px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.heading-product-name{
+    padding-left: 40%;
+    font-size: 50px;
+}
+#obj-img{
+    width: 388px;
+    height: 350px;
+    margin-left: 7%;
+    border-radius: 49px;
+    margin-top: -4%;
+}
+#frt-cont{
+    margin-left: 41%;
+    margin-top: -25%;
+    font-size: 25px;
+    line-height: 1.27;
+    padding-right: 5%;
+}
+#sec-cont{
+    margin-left: 7%;
+    font-size: 25px;
+    margin-top: 3%;
+    line-height: 1.27;
+    padding-right: 5%;
+}
+#btn-LearnMore{
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 37px;
+    font-size: 60px;
+    padding-left: 380px;
+    padding-right: 380px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 6%;
+}
+#btn-LearnMore:hover{
+    background-color: #04AA6D;
+}
+.LearnMore-btn {
+    margin-top: 3%;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 34px;
+    border: none;
+    cursor: pointer;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 18px;
+}
+
+.dropdown {
+   
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 122px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+    padding-left: 18px;
+    font-size: 23px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+ 
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.heading #Fheading {
+    text-decoration: none;
+    color: #000;
+    font-size: 45px;
+}
+.heading {
+    margin-left: 13%;
+}
+
+
+.store-heading-main{
+    display: inline;
+}
+
+.stores-main .store01{
+    height: 400px;
+    width: 1200px;
+    background-color: #F4F4F4;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.img-01 img{
+    width: 388px;
+    height: 350px;
+    margin-top: 2%;
+    margin-left: 3%;
+    border-radius: 58px;
+}
+.store01-heading a{
+    text-decoration: none;
+    color: #000;
+    margin-top: -6%;
+    font-size: 30px;
+}
+.store01-heading {
+    margin-top: -32%;
+    margin-left: 39%;
+}
+.four {
+    margin-left: 39%;
+    font-size: 30px;
+}
+.starL img{
+    height: 40px;
+}
+.starL{
+    display: inline;
+    margin-left: 23px;
+}
+.str {
+    margin-left: 42%;
+    margin-top: -3.5%;
+}
+.store-desc{
+    margin-left: 39%;
+    font-size: 20px;
+}
+.phone_read-more{
+    display: inline;
+}
+.PRM{
+    text-decoration: none;
+    display: inline;
+    font-size: 27px;
+}
+.Phone_read-more-main {
+    margin-left: 36%;
+    margin-top: 3.5%;
+}
+#RM01 {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 25px;
+    background-color: #000;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 26px;
+}
+#RM01:hover{
+    background-color: #3e8e41;
+}
+
+
+
+
+
+.store-heading-main{
+    display: inline;
+}
+
+.stores-main2 .store02{
+    height: 400px;
+    width: 1200px;
+    background-color: #F4F4F4;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.img-02 img{
+    width: 388px;
+    height: 350px;
+    margin-top: 2%;
+    margin-left: 3%;
+    border-radius: 58px;
+}
+.store02-heading a{
+    text-decoration: none;
+    color: #000;
+    margin-top: -6%;
+    font-size: 30px;
+}
+.store02-heading {
+    margin-top: -32%;
+    margin-left: 39%;
+}
+.four-2 {
+    margin-left: 39%;
+    font-size: 30px;
+}
+.starL-2 img{
+    height: 40px;
+}
+.starL-2{
+    display: inline;
+    margin-left: 23px;
+}
+.str-2 {
+    margin-left: 42%;
+    margin-top: -3.5%;
+}
+.store-desc2{
+    margin-left: 39%;
+    font-size: 20px;
+}
+.phone_read-more{
+    display: inline;
+}
+.PRM-2{
+    text-decoration: none;
+    display: inline;
+    font-size: 27px;
+}
+.Phone_read-more-main-2{
+    margin-left: 36%;
+    margin-top: 3.5%;
+}
+#RM02{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 25px;
+    background-color: #000;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 26px;
+}
+#RM02:hover{
+    background-color: #3e8e41;
+}
+
+
+
+
+.store-heading-main{
+    display: inline;
+}
+
+.stores-main3 .store03{
+    height: 400px;
+    width: 1200px;
+    background-color: #F4F4F4;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.img-03 img{
+    width: 388px;
+    height: 350px;
+    margin-top: 2%;
+    margin-left: 3%;
+    border-radius: 58px;
+}
+.store03-heading a{
+    text-decoration: none;
+    color: #000;
+    margin-top: -6%;
+    font-size: 30px;
+}
+.store03-heading {
+    margin-top: -32%;
+    margin-left: 39%;
+}
+.four-3 {
+    margin-left: 39%;
+    font-size: 30px;
+}
+.starL-3 img{
+    height: 40px;
+}
+.starL-3{
+    display: inline;
+    margin-left: 23px;
+}
+.str-3 {
+    margin-left: 42%;
+    margin-top: -3.5%;
+}
+.store-desc3{
+    margin-left: 39%;
+    font-size: 20px;
+}
+.phone_read-more{
+    display: inline;
+}
+.PRM-3{
+    text-decoration: none;
+    display: inline;
+    font-size: 27px;
+}
+.Phone_read-more-main-3{
+    margin-left: 36%;
+    margin-top: 3.5%;
+}
+#RM03{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 25px;
+    background-color: #000;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 26px;
+}
+#RM03:hover{
+    background-color: #3e8e41;
+}
+
+
+
+
+.store-heading-main{
+    display: inline;
+}
+
+.stores-main4 .store04{
+    height: 400px;
+    width: 1200px;
+    background-color: #F4F4F4;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.img-04 img{
+    width: 388px;
+    height: 350px;
+    margin-top: 2%;
+    margin-left: 3%;
+    border-radius: 58px;
+}
+.store04-heading a{
+    text-decoration: none;
+    color: #000;
+    margin-top: -6%;
+    font-size: 30px;
+}
+.store04-heading {
+    margin-top: -32%;
+    margin-left: 39%;
+}
+.four-4{
+    margin-left: 39%;
+    font-size: 30px;
+}
+.starL-4 img{
+    height: 40px;
+}
+.starL-4{
+    display: inline;
+    margin-left: 23px;
+}
+.str-4{
+    margin-left: 42%;
+    margin-top: -3.5%;
+}
+.store-desc4{
+    margin-left: 39%;
+    font-size: 20px;
+}
+.phone_read-more{
+    display: inline;
+}
+.PRM-4{
+    text-decoration: none;
+    display: inline;
+    font-size: 27px;
+}
+.Phone_read-more-main-4{
+    margin-left: 36%;
+    margin-top: 3.5%;
+}
+#RM04{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 25px;
+    background-color: #000;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 26px;
+}
+#RM04:hover{
+    background-color: #3e8e41;
+}
+
+
+
+
+
+.store-heading-main{
+    display: inline;
+}
+
+.stores-main5 .store05{
+    height: 400px;
+    width: 1200px;
+    background-color: #F4F4F4;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.img-05 img{
+    width: 388px;
+    height: 350px;
+    margin-top: 2%;
+    margin-left: 3%;
+    border-radius: 58px;
+}
+.store05-heading a{
+    text-decoration: none;
+    color: #000;
+    margin-top: -6%;
+    font-size: 30px;
+}
+.store05-heading {
+    margin-top: -32%;
+    margin-left: 39%;
+}
+.four-5{
+    margin-left: 39%;
+    font-size: 30px;
+}
+.starL-5 img{
+    height: 40px;
+}
+.starL-5{
+    display: inline;
+    margin-left: 23px;
+}
+.str-5{
+    margin-left: 42%;
+    margin-top: -3.5%;
+}
+.store-desc5{
+    margin-left: 39%;
+    font-size: 20px;
+}
+.phone_read-more{
+    display: inline;
+}
+.PRM-5{
+    text-decoration: none;
+    display: inline;
+    font-size: 27px;
+}
+.Phone_read-more-main-5{
+    margin-left: 36%;
+    margin-top: 3.5%;
+}
+#RM05{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 25px;
+    background-color: #000;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 26px;
+}
+#RM05:hover{
+    background-color: #3e8e41;
+}
+
+.four,.four-2,.four-3,.four-4,.four-5{
+    padding-bottom: 15px;
+}
+
+
+.str-1,.str-2,.str-3,.str-4,.str-5 {
+    margin-left: 42%;
+    margin-top: -4.5%;
+}
+
+
